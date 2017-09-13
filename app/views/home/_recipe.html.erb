@@ -1,0 +1,11 @@
+<div class="col-sm-3">
+  <div class="card">
+    <%= link_to recipe['href'], target: '_blank' do %>
+      <img class="card-img-top" src="<%= recipe['thumbnail'].blank? ? empty_recipe_image : recipe['thumbnail'] %>" width="318" height="180" alt="<%= recipe['title'] %>">
+    <% end %>
+    <div class="card-body card-min-height">
+      <h4 class="card-title"><%= format_text recipe['title'], 25 %></h4>
+      <p class="card-text"><%= format_text recipe['ingredients'], 80 %></p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,148 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.recipepuppy.com/api?p=1&q=omelet
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 13 Sep 2017 15:03:28 GMT
+      Server:
+      - Apache/2.2.9 (Ubuntu) PHP/5.2.6-2ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.9
+        OpenSSL/0.9.8g mod_wsgi/4.5.7 Python/2.6
+      X-Powered-By:
+      - PHP/5.2.6-2ubuntu4.6
+      Set-Cookie:
+      - kohanasession=a839b79be865ab24450012d120346d80; expires=Wed, 13 Sep 2017 17:03:28
+        GMT; path=/
+      - kohanasession=a839b79be865ab24450012d120346d80; expires=Wed, 13-Sep-2017 17:03:28
+        GMT; path=/
+      - kohanasession_data=c2Vzc2lvbl9pZHxzOjMyOiJhODM5Yjc5YmU4NjVhYjI0NDUwMDEyZDEyMDM0NmQ4MCI7dG90YWxfaGl0c3xpOjE7X2tmX2ZsYXNoX3xhOjA6e311c2VyX2FnZW50fHM6NDoiUnVieSI7aXBfYWRkcmVzc3xzOjEzOiIxNzcuNTUuMTkyLjkxIjtsYXN0X2FjdGl2aXR5fGk6MTUwNTMxNTAwODs%3D;
+        expires=Wed, 13-Sep-2017 17:03:29 GMT; path=/
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '914'
+      Content-Type:
+      - text/javascript
+    body:
+      encoding: ASCII-8BIT
+      string: '{"title":"Recipe Puppy","version":0.1,"href":"http:\/\/www.recipepuppy.com\/","results":[{"title":"Baked
+        Omelet With Broccoli &amp; Tomato","href":"http:\/\/www.recipezaar.com\/Baked-Omelet-With-Broccoli-Tomato-325014","ingredients":"milk,
+        cottage cheese, broccoli, cheddar cheese, basil, onion powder, eggs, garlic
+        powder, roma tomato, salt","thumbnail":"http:\/\/img.recipepuppy.com\/123889.jpg"},{"title":"Mild
+        Curry Omelet","href":"http:\/\/allrecipes.com\/Recipe\/Mild-Curry-Omelet\/Detail.aspx","ingredients":"coriander,
+        cumin, eggs, garlic, green onion, vegetable oil, onions, red pepper, salt,
+        turmeric","thumbnail":""},{"title":"Light Italian Feta Omelet","href":"http:\/\/www.recipezaar.com\/Light-Italian-Feta-Omelet-281901","ingredients":"egg
+        substitute, feta cheese, basil, roma tomato, salt","thumbnail":"http:\/\/img.recipepuppy.com\/36027.jpg"},{"title":"Awesome
+        Cajun Omelet","href":"http:\/\/www.recipezaar.com\/Awesome-Cajun-Omelet-83278","ingredients":"bacon,
+        butter, cajun seasoning, cheddar cheese, eggs, heavy cream, salsa, marsala
+        wine, tomato, white mushroom, onions","thumbnail":""},{"title":"Blue Cheese
+        Omelet","href":"http:\/\/www.recipezaar.com\/Blue-Cheese-Omelet-81266","ingredients":"blue
+        cheese, butter, cinnamon, eggs, black pepper, salt, apple, walnut, water","thumbnail":"http:\/\/img.recipepuppy.com\/177663.jpg"},{"title":"Canadian
+        Bacon Omelet","href":"http:\/\/www.recipezaar.com\/Canadian-Bacon-Omelet-309202","ingredients":"butter,
+        canadian bacon, cheddar cheese, eggs, garlic, onions, potato, red pepper,
+        sour cream","thumbnail":""},{"title":"Cauliflower and Feta Omelet","href":"http:\/\/www.recipezaar.com\/Cauliflower-and-Feta-Omelet-301887","ingredients":"black
+        pepper, nonstick cooking spray, red pepper flakes, eggs, olive oil, feta cheese,
+        parsley, garlic, cauliflower, salt","thumbnail":""},{"title":"Chef Joey''s
+        Low Cal Breakfast Omelet","href":"http:\/\/www.recipezaar.com\/Chef-Joeys-Low-Cal-Breakfast-Omelet-272748","ingredients":"egg
+        substitute, olive oil, herbes de provence, peppers, salt, shallot, bacon","thumbnail":""},{"title":"Vegan
+        Omelet For One Recipe","href":"http:\/\/www.grouprecipes.com\/18772\/vegan-omelet-for-one.html","ingredients":"salt,
+        chipotle pepper, yeast, onion powder, potato starch, soy milk, tahini, turmeric","thumbnail":"http:\/\/img.recipepuppy.com\/328574.jpg"},{"title":"Tomato
+        Omelet Recipe","href":"http:\/\/www.grouprecipes.com\/22564\/tomato-omelet.html","ingredients":"chilli,
+        onions, eggs, tomato, mint, green olive, olive oil, tea, tea","thumbnail":""}]}'
+    http_version: 
+  recorded_at: Wed, 13 Sep 2017 15:05:04 GMT
+- request:
+    method: get
+    uri: http://www.recipepuppy.com/api?p=2&q=omelet
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 13 Sep 2017 15:03:29 GMT
+      Server:
+      - Apache/2.2.9 (Ubuntu) PHP/5.2.6-2ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.9
+        OpenSSL/0.9.8g mod_wsgi/4.5.7 Python/2.6
+      X-Powered-By:
+      - PHP/5.2.6-2ubuntu4.6
+      Set-Cookie:
+      - kohanasession=6c177bac834c85b34226e81ef2a7de64; expires=Wed, 13 Sep 2017 17:03:29
+        GMT; path=/
+      - kohanasession=6c177bac834c85b34226e81ef2a7de64; expires=Wed, 13-Sep-2017 17:03:29
+        GMT; path=/
+      - kohanasession_data=c2Vzc2lvbl9pZHxzOjMyOiI2YzE3N2JhYzgzNGM4NWIzNDIyNmU4MWVmMmE3ZGU2NCI7dG90YWxfaGl0c3xpOjE7X2tmX2ZsYXNoX3xhOjA6e311c2VyX2FnZW50fHM6NDoiUnVieSI7aXBfYWRkcmVzc3xzOjEzOiIxNzcuNTUuMTkyLjkxIjtsYXN0X2FjdGl2aXR5fGk6MTUwNTMxNTAwOTs%3D;
+        expires=Wed, 13-Sep-2017 17:03:29 GMT; path=/
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '708'
+      Content-Type:
+      - text/javascript
+    body:
+      encoding: ASCII-8BIT
+      string: '{"title":"Recipe Puppy","version":0.1,"href":"http:\/\/www.recipepuppy.com\/","results":[{"title":"Farmers
+        Omelet","href":"http:\/\/www.recipezaar.com\/Farmers-Omelet-179494","ingredients":"butter,
+        eggs, tomato, leek, potato, salt, smoked sausage, water","thumbnail":""},{"title":"Greek
+        Omelet","href":"http:\/\/www.recipezaar.com\/Greek-Omelet-311274","ingredients":"capers,
+        eggs, feta cheese, dill weed, garlic, olive oil, olive oil, onions, black
+        pepper, potato, salt, spinach","thumbnail":""},{"title":"Greek Omelet for
+        1","href":"http:\/\/www.recipezaar.com\/Greek-Omelet-for-1-235396","ingredients":"butter,
+        egg substitute, onions, black pepper, feta cheese, salt, spinach, tomato,
+        water","thumbnail":"http:\/\/img.recipepuppy.com\/694441.jpg"},{"title":"Zucchini
+        Oven Omelet","href":"http:\/\/allrecipes.com\/Recipe\/Zucchini-Oven-Omelet\/Detail.aspx","ingredients":"butter,
+        cheddar cheese, vegetable oil, eggs, green pepper, cream, parmesan cheese,
+        black pepper, salt, zucchini","thumbnail":""},{"title":"My Husband''s Favorite
+        Omelet","href":"http:\/\/allrecipes.com\/Recipe\/My-Husbands-Favorite-Omelet\/Detail.aspx","ingredients":"american
+        cheese, bacon, broccoli, butter, carrot, celery, eggs, milk, onions, black
+        pepper, chili pepper, salt","thumbnail":"http:\/\/img.recipepuppy.com\/1397.jpg"},{"title":"Omelet
+        For Two","href":"http:\/\/allrecipes.com\/Recipe\/Omelet-For-Two\/Detail.aspx","ingredients":"sausage,
+        butter, butter, eggs, flour, milk, milk, black pepper, black pepper, salt,
+        salt, sour cream","thumbnail":""},{"title":"Mushroom Omelet","href":"http:\/\/allrecipes.com\/Recipe\/Mushroom-Omelet\/Detail.aspx","ingredients":"butter,
+        caraway seed, eggs, lemon pepper, milk, mushroom, black pepper, salt","thumbnail":""},{"title":"Pear
+        Oven Omelet","href":"http:\/\/allrecipes.com\/Recipe\/Pear-Oven-Omelet\/Detail.aspx","ingredients":"butter,
+        cinnamon, eggs, flour, ginger, pear, sugar, vanilla extract","thumbnail":"http:\/\/img.recipepuppy.com\/2891.jpg"},{"title":"Early-Riser
+        Oven Omelet","href":"http:\/\/allrecipes.com\/Recipe\/Early-Riser-Oven-Omelet\/Detail.aspx","ingredients":"ham,
+        egg whites, eggs, milk, onions, black pepper, cheddar cheese, salt, tomato","thumbnail":""},{"title":"Pizza
+        Omelet","href":"http:\/\/allrecipes.com\/Recipe\/Pizza-Omelet\/Detail.aspx","ingredients":"butter,
+        eggs, milk, mozzarella cheese, parmesan cheese, pepperoni, pizza sauce","thumbnail":"http:\/\/img.recipepuppy.com\/2950.jpg"}]}'
+    http_version: 
+  recorded_at: Wed, 13 Sep 2017 15:05:04 GMT
+recorded_with: VCR 3.0.3

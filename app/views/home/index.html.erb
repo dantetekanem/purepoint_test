@@ -1,0 +1,24 @@
+<form get="/">
+  <div class="form-row">
+    <div class="col-md-11">
+      <div class="input-group">
+        <input type="text" class="form-control" name="query" value="<%= @query %>" placeholder="Search for...">
+      </div>
+    </div>
+    <div class="col-md-1">
+      <button type="submit" name="" class="btn btn-primary">Search</button>
+    </div>
+  </div>
+</form>
+
+<div class="row" id="recipes">
+  <% if @query.present? %>
+    <% if @recipes.empty? %>
+      <div class="col-md-12">No recipes found.</div>
+    <% else %>
+      <%= render partial: "recipe", collection: @recipes %>
+    <% end %>
+  <% else %>
+    <p>Search for some recipe above!</p>
+  <% end %>
+</div>
